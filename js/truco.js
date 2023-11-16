@@ -1003,13 +1003,13 @@
 		switch (canto){
 			case "E":
 			case "EE":
-				mensaje += "Envido";
+				mensaje += "Envido, Carajo!";
 				break;
 			case "R":
-				mensaje += "Real Envido";
+				mensaje += "Real Envido, Carajo!";
 				break;
 			case "F":
-				mensaje += "Falta Envido";
+				mensaje += "Falta Envido, Carajo!";
 				break;		
             case "T":
                 mensaje += "Truco!";
@@ -1267,7 +1267,7 @@
 		if(nombreJugadorUno !== null && nombreJugadorUno !== undefined && nombreJugadorUno !== '') {
 			jugador1.nombre = nombreJugadorUno;
 		} else {
-			jugador1.nombre = 'Jugador 1';
+			jugador1.nombre = 'Humano';
 		}
 		this.equipoPrimero.jugador = jugador1;
 		var maquina = new IA();
@@ -1370,7 +1370,7 @@
 		audio.fx['V'] = a;
 		//Comienza la acción
 		_partidaActual = new Partida();
-		_partidaActual.iniciar('Jugador 1', 'Computadora');
+		_partidaActual.iniciar('Humano', 'Computadora');
 
 		//Events Bindings
 		var _inputsName = $('.human-name');

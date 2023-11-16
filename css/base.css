@@ -546,7 +546,7 @@ h1 {
 	vertical-align:top;
 	height: 100%;
 	background: none repeat scroll 0 0 #111111;
-    border-right: 2px solid white;
+    border-right: 5px solid rgb(129, 54, 54);
     background: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, #111), color-stop(100%, #222)); /*#142B0F*/
 	background: -webkit-linear-gradient(bottom, #111, #000);
 	background: -moz-linear-gradient(bottom, #111, #222);
@@ -723,7 +723,7 @@ ul li {
 }
 .naipe:focus,
 .naipe:active {
-  outline:0;
+    outline:0;
 }
 .naipe-boca-abajo {
     background: url('../images/naipes-e.png') 98px 0;
@@ -740,14 +740,14 @@ ul li {
 }
 #game-score {
 	height:10%;
-	border:1px solid white;
+	border:7px solid rgb(212, 46, 46);
 	width:80%;
 	margin:auto;
 }
 #game-score td,
 #game-score th {
 	text-align:center;
-	border:1px solid white;
+	border:5px solid rgb(116, 76, 76);
 	width:50%;
 }
 #log, .log-title {
@@ -807,18 +807,18 @@ ul li {
 	left:330px;
 }					
 @-webkit-keyframes inifintyRotate {
-  0%   { -webkit-transform: rotate(0deg); }
-  100% { -webkit-transform: rotate(360deg); }
+    0%   { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
 }
 @-moz-keyframes inifintyRotate {
-  0%   { -moz-transform: rotate(0deg); }
-  100% { -moz-transform: rotate(360deg); }
+    0%   { -moz-transform: rotate(0deg); }
+    100% { -moz-transform: rotate(360deg); }
 }
 @-o-keyframes inifintyRotate {
-  0%   { -o-transform: rotate(0deg); }
-  100% { -o-transform: rotate(360deg); }
+    0%   { -o-transform: rotate(0deg); }
+    100% { -o-transform: rotate(360deg); }
 }
 @keyframes inifintyRotate {
-  0%   { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+    0%   { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
 }
